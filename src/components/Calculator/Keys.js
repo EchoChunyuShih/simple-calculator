@@ -41,7 +41,7 @@ const Keys = () => {
   }
   return (
     <>
-      <div className='grid-cols-5 grid grid-cols-4 gap-4'>
+      <div className='grid-cols-5 grid gap-4'>
         <DigitButton digit='7' dispatch={dispatch} />
         <DigitButton digit='8' dispatch={dispatch} />
         <DigitButton digit='9' dispatch={dispatch} />
