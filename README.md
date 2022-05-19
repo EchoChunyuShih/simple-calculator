@@ -11,7 +11,7 @@
 </div>
 
 ## 📄 Description
-A calculator built using React, Javascript ES6, and styled with Tailwind and DaisyUI.
+A calculator built using React, Javascript ES6, responsive styling with Tailwind and DaisyUI.
 
 ## ✨ USAGE
 
