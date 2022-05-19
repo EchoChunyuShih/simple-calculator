@@ -7,14 +7,14 @@ import Keys from './Keys'
 const Calculator = () => {
   const { previousOperand, currentOperand, operation } = useContext(CalcContext)
   const [errmsg, setErrmsg] = useState('error')
-  const IntergetFormatter = new Intl.NumberFormat('en-us', {
+  const IntergerFormatter = new Intl.NumberFormat('en-us', {
     maximumFractionDigits: 0,
   })
   const formatOperand = (operand) => {
     if (operand == null) return
     const [interger, decimal] = operand.split('.')
-    if (decimal == null) return IntergetFormatter.format(interger)
-    return `${IntergetFormatter.format(interger)}.${decimal}`
+    if (decimal == null) return IntergerFormatter.format(interger)
+    return `${IntergerFormatter.format(interger)}.${decimal}`
   }
   console.log(currentOperand == undefined)
   return (
