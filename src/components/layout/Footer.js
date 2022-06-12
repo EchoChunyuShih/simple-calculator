@@ -7,11 +7,11 @@ const Footer = () => {
         target='_blank'
         className='cursor:pointer'
       >
-        <span className='hover:text-pink-500 transition-transform duration-200 ease-in-out hover:tracking-widest'>
+        <span className='hover:text-pink-500 transition duration-500 ease-out hover:ease-in-out'>
           &#60; Source / &#62;
         </span>
       </a>
-      <div>Copyright &copy; {footerYear} All Rights Reserved</div>
+      <div> &copy; {footerYear} Built with React & Tailwind &#9829; </div>
     </footer>
   )
 }
